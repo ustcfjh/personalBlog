@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 /*
 因为是做前后端分离，所以数据是通过 RESTFUL接口来取的，而在业务上，除了 RESTFUL 服务要提供，
 还要提供页面跳转服务，所以所有的后台页面跳转都放在 AdminPageController 这个控制器里。
-而RSTFUL 专门放在 Category 对应的控制器 CategoryController.java 里面。这样代码更清晰，不会搅起搅起的~
+而RSTFUL 专门放在 Category 对应的控制器 CategoryController.java 里面。
  */
 
 @Controller
